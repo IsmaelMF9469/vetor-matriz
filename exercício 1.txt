@@ -1,0 +1,23 @@
+programa
+{
+	funcao inicio ()
+	{
+	real nota[5], maior = 0.0
+	
+		para(inteiro x = 0; x < 5; x++){
+			escreva("Digite a nota do aluno :")
+			leia (nota[x])
+			
+			se(nota[x]>maior){
+				maior = nota[x]
+				limpa()
+			}
+		}
+		
+		escreva("\n\n A maior nota foi: ",maior)
+		
+		
+		
+		
+	}
+}

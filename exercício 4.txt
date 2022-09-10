@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+	 inteiro matriz[3][3], soma = 0, somaD=0,x=5
+	 
+		para(inteiro i=0;i<3;i++){
+		    
+			limpa()
+			escreva("\n Linha ","[",i+1,"]")
+				
+				para(inteiro j=0;j<3;j++){
+					escreva("\nColuna","[",j+1,"]=")
+					leia(matriz[i][j])
+			
+					soma = soma + matriz[i][j]
+					
+					
+				}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+programa
+{
+	funcao inicio ()
+	{
+	 inteiro n, v[10], maior = 0, quantidade = 10
+	 real media = 0.0
+	 
+		 para(inteiro x = 0; x < 10; x++){
+		 	
+		 	escreva("\n Digite o resultado do lançamento dos dados: ")
+			leia(v[x])
+		
+				escolha(v[x]){
+					caso 1 :
+						v[x] = 1
+					pare
+					
+					caso 2 :
+						v[x] = 2
+					pare
+					
+					caso 3 :
+						v[x] = 3
+					pare
+					
+					caso 4 :
+						v[x] = 4
+					pare
+					
+					caso 5 :
+						v[x] = 5
+					pare
+					
+					caso 6 :
+						v[x] = 6
+					pare
+					
+					caso contrario:
+					escreva("\nValor indisponível")
+					v[x] = 0 
+				
+					pare
+				}
+					 media = media + v[x]
+					 se(v[x]>maior)
+						maior = v[x]
+						
+					 }
+						quantidade++
+				     }
+
+		
+		 }
+		 
+			escreva("\n O resultado dos",quantidade, " lançamentos: ")
+			escreva("\n A média de lançamentos: ", media/10)
+			escreva("\n Maior lançamento: ",maior)
+		
+		 
+	}
+}

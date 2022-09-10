@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio ()
+	{
+	 inteiro n1[3][2],n2[3][2],n3[3][2]
+	 
+	 escreva("\nDigite o valor da primeira matriz")
+	 
+		para(inteiro i=0;i<3;i++){
+			para(inteiro j=0;j<2;j++){
+				escreva("\nDigite ")
+			}
+		}
+	 
+	}
+}
